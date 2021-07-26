@@ -38,13 +38,14 @@ public class App {
             logger.info( "2 - Ver reporte de un centro en especifico");
             logger.info( "3 - Crear nuevo centro");
             logger.info( "4 - Eliminar un centro");
-            logger.info( "5 - Cerrar sesion");
+            logger.info("5 - Agregar algun vacunado");
+            logger.info( "6 - Cerrar sesion");
             var option = sc.nextInt();
             switch (option) {
                 case 1 -> Centros.formatAllReportes();
                 case 2 -> {
                     logger.info("Ingrese el id del centro al que quiere revisar: ");
-                    var c = sc.nextInt();
+                    var c = sc.nextInt() - 1;
                     Centros.centros.get(c).formatReport();
                 }
                 case 3 -> {
@@ -58,10 +59,20 @@ public class App {
                 }
                 case 4 -> {
                     logger.info("Ingrese el id del centro que desea eliminar");
-                    var c = sc.nextInt();
+                    var c = sc.nextInt() - 1;
                     Centros.unsubscribe(Centros.centros.get(c));
                 }
-                case 5 -> Login.logout();
+                case 5 -> {
+                    logger.info( "¿Que edad tiene esta persona?");
+                    var e = sc.nextInt();
+                    logger.info( "¿Se ha aplicado la primera dosis anteriormente (0: No, 1: Si)?");
+                    var i = sc.nextInt();
+                    Persona p = new Persona(e, i!=0);
+                    if(!Centros.addVacunado(p))
+                        logger.info("La persona que se intento añadir no tiene un centro asignado");
+                }
+                case 6 -> Login.logout();
+                default -> logger.info("Has ingresado una opcion incorrecta");
             }
         }
         logger.info("Sesion cerrada");

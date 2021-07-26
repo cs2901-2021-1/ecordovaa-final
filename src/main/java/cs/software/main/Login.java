@@ -13,6 +13,7 @@ public final class Login {
         return session;
     }
 
+    @org.jetbrains.annotations.NotNull
     private String makePassword(String username){
         StringBuilder sb = new StringBuilder(username);
         sb.reverse();

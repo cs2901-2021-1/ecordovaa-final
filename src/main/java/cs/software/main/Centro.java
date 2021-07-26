@@ -17,6 +17,10 @@ public class Centro {
         cantPersonas = t;
     }
 
+    public void setId(int i){
+        id = i;
+    }
+
     public int getAvanceVacunacion(){
         return cantVacunados;
     }

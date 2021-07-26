@@ -4,8 +4,8 @@ public class Persona {
     public boolean vacunaParcial;
     public int edad;
 
-    public Persona(int e){
-        vacunaParcial = false;
+    public Persona(int e, boolean vp){
+        vacunaParcial = vp;
         edad = e;
     }
 }
