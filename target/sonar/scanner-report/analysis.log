@@ -1,0 +1,85 @@
+SonarCloud plugins:
+  - CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+  - IaC Code Quality and Security 1.0.0.746 (iac)
+  - PL/SQL Code Quality and Security 3.6.1.3873 (plsql)
+  - Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+  - C# Code Quality and Security 8.26.0.34506 (csharp)
+  - Vulnerability Analysis 9.0.0.12669 (security)
+  - Java Code Quality and Security 7.2.0.26923 (java)
+  - HTML Code Quality and Security 3.4.0.2754 (web)
+  - Flex Code Quality and Security 2.6.2.2641 (flex)
+  - XML Code Quality and Security 2.2.0.2973 (xml)
+  - VB.NET Code Quality and Security 8.26.0.34506 (vbnet)
+  - Swift Code Quality and Security 4.3.1.4892 (swift)
+  - CFamily Code Quality and Security 6.23.0.34138 (cpp)
+  - Python Code Quality and Security 3.5.0.8244 (python)
+  - Go Code Quality and Security 1.8.3.2219 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 2.0.1.110 (kotlin)
+  - Mercurial 1.1.2 (scmmercurial)
+  - T-SQL Code Quality and Security 1.5.1.4340 (tsql)
+  - Apex Code Quality and Security 1.8.3.2219 (sonarapex)
+  - JavaScript/TypeScript Code Quality and Security 8.1.0.15788 (javascript)
+  - Ruby Code Quality and Security 1.8.3.2219 (ruby)
+  - Vulnerability Rules for C# 9.0.0.12669 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 9.0.0.12669 (securityjavafrontend)
+  - License for SonarLint 8.0.0.22079 (license)
+  - Vulnerability Rules for JS 9.0.0.12669 (securityjsfrontend)
+  - COBOL Code Quality 4.6.2.4876 (cobol)
+  - Vulnerability Rules for Python 9.0.0.12669 (securitypythonfrontend)
+  - PHP Code Quality and Security 3.17.0.7439 (php)
+  - ABAP Code Quality and Security 3.9.1.3127 (abap)
+  - Configuration detection fot Code Quality and Security 1.0.0.32 (config)
+  - Vulnerability Rules for PHP 9.0.0.12669 (securityphpfrontend)
+Global server settings:
+  - email.from=noreply@sonarcloud.io
+  - email.fromName=SonarCloud
+  - email.prefix=[SonarCloud]
+  - node_10_end_of_support_date=1620604800000
+  - node_10_grace_period_termination_date=1621814400000
+  - sonar.auth.bitbucket.enabled=true
+  - sonar.auth.microsoft.enabled=true
+  - sonar.core.id=1BD809FA-AWHW8ct9-T_TB3XqouNu
+  - sonar.core.serverBaseURL=https://sonarcloud.io
+  - sonar.core.startTime=2021-07-26T10:50:02+0200
+  - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=480
+  - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByMonth=4
+  - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek=1
+  - sonar.lf.enableGravatar=true
+  - sonar.lf.logoWidthPx=105
+  - sonar.organizations.anyoneCanCreate=true
+  - sonar.organizations.createPersonalOrg=true
+  - sonar.plsql.file.suffixes=sql,tab,pkb
+  - sonar.tsql.file.suffixes=.tsql
+Project server settings:
+Project scanner properties:
+  - sonar.binaries=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target/classes
+  - sonar.groovy.binaries=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target/classes
+  - sonar.host.url=https://sonarcloud.io
+  - sonar.java.binaries=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target/classes
+  - sonar.java.jdkHome=/usr/lib/jvm/java-14-openjdk-amd64
+  - sonar.java.libraries=/home/jztrk/.m2/repository/org/springframework/boot/spring-boot/2.5.3/spring-boot-2.5.3.jar,/home/jztrk/.m2/repository/org/springframework/spring-core/5.3.9/spring-core-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-jcl/5.3.9/spring-jcl-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-aop/5.3.9/spring-aop-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-expression/5.3.9/spring-expression-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3.jar
+  - sonar.java.source=14
+  - sonar.java.target=14
+  - sonar.java.test.binaries=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target/test-classes
+  - sonar.java.test.libraries=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target/classes,/home/jztrk/.m2/repository/org/springframework/boot/spring-boot/2.5.3/spring-boot-2.5.3.jar,/home/jztrk/.m2/repository/org/springframework/spring-core/5.3.9/spring-core-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-jcl/5.3.9/spring-jcl-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-aop/5.3.9/spring-aop-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-expression/5.3.9/spring-expression-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3.jar,/home/jztrk/.m2/repository/junit/junit/4.13/junit-4.13.jar,/home/jztrk/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar,/home/jztrk/.m2/repository/org/...
+  - sonar.libraries=/home/jztrk/.m2/repository/org/springframework/boot/spring-boot/2.5.3/spring-boot-2.5.3.jar,/home/jztrk/.m2/repository/org/springframework/spring-core/5.3.9/spring-core-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-jcl/5.3.9/spring-jcl-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-aop/5.3.9/spring-aop-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/spring-expression/5.3.9/spring-expression-5.3.9.jar,/home/jztrk/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3.jar
+  - sonar.links.ci=
+  - sonar.links.homepage=
+  - sonar.links.issue=
+  - sonar.links.scm=
+  - sonar.links.scm_dev=
+  - sonar.moduleKey=cs2901-2021-1_ecordovaa-final
+  - sonar.organization=cs2901-2021-1
+  - sonar.projectBaseDir=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final
+  - sonar.projectBuildDir=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target
+  - sonar.projectKey=cs2901-2021-1_ecordovaa-final
+  - sonar.projectName=ecordovaa-final
+  - sonar.projectVersion=1.0-SNAPSHOT
+  - sonar.scanner.app=ScannerMaven
+  - sonar.scanner.appVersion=3.9.0.2155/3.8.1
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/pom.xml,/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/src/main/java
+  - sonar.tests=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/src/test/java
+  - sonar.verbose=true
+  - sonar.working.directory=/home/jztrk/Desktop/UTEC/Ciclo_V/ING.SOFTWARE/ecordovaa-final/target/sonar
